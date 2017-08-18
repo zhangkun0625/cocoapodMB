@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "podBase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "A marquee view used on iOS"
 
 
