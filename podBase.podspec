@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "podBase"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "A marquee view used on iOS"
 
 
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Base", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -106,8 +106,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  s.resources = "Resources/*.png"
+  s.resource  = "Resources/MBProgressHUD.bundle"
+  # s.resources = "Resources/MBProgressHUD.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
